@@ -241,7 +241,7 @@ const Home = (props) => {
             <Slide
               Role="DESIGN DIRECTOR"
               Author="Bill Smith"
-              image_src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+              image_src="/playground_assets/logo1-200h.png"
               Testimonial='“Stunning app! I use it everyday since I discovered it and love it every since. It really makes newsreading a pleasure. I enjoy all the customization options available, super highly recommended!"'
               Testimonial2="Super highly recommended!”"
               rootClassName="slide-root-class-name"
@@ -249,7 +249,7 @@ const Home = (props) => {
             <Slide
               Role="FREELANCE WRITER"
               Author="Julia Xang"
-              image_src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+              image_src="/playground_assets/logo1-200h.png"
               Testimonial="“Feedbox is very easy to use and flexible! I especially like the pre-made templates that are accessible; they're extraordinary for monitoring a few feed sources and various RSS Feeds together.”"
               rootClassName="slide-root-class-name1"
             ></Slide>

@@ -102,7 +102,7 @@ NavbarContainer.defaultProps = {
   text2: "Let's Connect",
   PrimaryBtn1: 'Get started',
   text3: 'Follow us',
-  image_src1: 'https://play.teleporthq.io/static/svg/placeholders/no-image.svg',
+  image_src1: '/playground_assets/logo1-200h.png',
   image_alt1: 'image',
 }
 
