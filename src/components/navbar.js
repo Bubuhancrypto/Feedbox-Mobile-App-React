@@ -73,7 +73,7 @@ const Navbar = (props) => {
 
 Navbar.defaultProps = {
   image_src: '/playground_assets/logo1-200h.png',
-  //image_src1: 'https://play.teleporthq.io/static/svg/placeholders/no-image.svg',
+  image_src1: 'https://rifkipersonal.vercel.app/playground_assets/logo1-200h.png',
   image_alt: 'logo',
   image_alt1: 'image',
   text: 'Follow us',
