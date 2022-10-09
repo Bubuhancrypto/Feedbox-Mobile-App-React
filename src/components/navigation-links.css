@@ -35,6 +35,9 @@
     align-items: flex-start;
     flex-direction: column;
   }
+  .navigation-links-container {
+    flex-direction: column;
+  }
   .navigation-links-link1 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
