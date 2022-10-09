@@ -29,7 +29,7 @@ const Home = (props) => {
           <Link to="/">
             <img
               alt="logo"
-              src="b1a21676-fb31-45ec-b5ea-9c727a067ae0"
+              src="../public/playground_assets/logo1-200h.png"
               className="home-image"
             />
           </Link>
@@ -56,7 +56,7 @@ const Home = (props) => {
               <div className="home-container1">
                 <img
                   alt="image"
-                  src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+                  src="../public/playground_assets/logo1-200h.png"
                   className="home-image1"
                 />
                 <div data-type="CloseMobileMenu" className="home-menu-close">
