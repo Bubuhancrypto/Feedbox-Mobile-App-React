@@ -72,8 +72,8 @@ const Navbar = (props) => {
 }
 
 Navbar.defaultProps = {
-  image_src: '/playground_assets/logo1-200h.png',
-  image_src1: 'https://rifkipersonal.vercel.app/playground_assets/logo1-200h.png',
+  image_src: '../public/playground_assetslogo1-200h.png',
+  image_src1: '../playground_assets/logo1-200h.png',
   image_alt: 'logo',
   image_alt1: 'image',
   text: 'Follow us',
