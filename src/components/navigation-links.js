@@ -7,9 +7,26 @@ import './navigation-links.css'
 const NavigationLinks = (props) => {
   return (
     <nav className={`navigation-links-nav ${props.rootClassName} `}>
-      <span className="navbar-link">{props.text}</span>
-      <span className="navigation-links-text1 navbar-link">{props.text1}</span>
-      <span className="navigation-links-text2 navbar-link">{props.text2}</span>
+      <div className="navigation-links-container">
+        <a
+          href="https://rifkipersonal.vercel.app/#about"
+          className="navigation-links-link navbar-link"
+        >
+          {props.text}
+        </a>
+        <a
+          href="https://rifkipersonal.vercel.app/#work"
+          className="navigation-links-link1 navbar-link"
+        >
+          {props.text1}
+        </a>
+        <a
+          href="https://rifkipersonal.vercel.app/#connect"
+          className="navigation-links-link2 navbar-link"
+        >
+          {props.text2}
+        </a>
+      </div>
     </nav>
   )
 }
