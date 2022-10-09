@@ -56,7 +56,7 @@ const Home = (props) => {
               <div className="home-container1">
                 <img
                   alt="image"
-                  src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+                  src="....\public\playground_assets\logo1-200h.png"
                   className="home-image1"
                 />
                 <div data-type="CloseMobileMenu" className="home-menu-close">
