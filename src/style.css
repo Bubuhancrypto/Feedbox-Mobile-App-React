@@ -5,6 +5,9 @@
   --dl-size-size-xlarge: 192px;
   --dl-size-size-xsmall: 16px;
   --dl-space-space-unit: 16px;
+  --dl-color-neutral-100: rgba(255, 255, 255, 1);
+  --dl-color-neutral-600: rgba(110, 107, 143, 1);
+  --dl-color-neutral-800: rgba(23, 15, 73, 1);
   --dl-size-size-xxlarge: 288px;
   --dl-color-grays-dark80: #212121cc;
   --dl-color-grays-gray40: #63667066;
@@ -213,6 +216,34 @@
   line-height: 1.2;
   text-transform: none;
   text-decoration: none;
+}
+.textSingle200Regular {
+  font-size: 18px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.textSingle200Bold {
+  font-size: 18px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.headingsTypographySize1 {
+  font-size: 54px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.textSingle300Medium {
+  font-size: 20px;
+  font-style: normal;
+  font-family: DM Sans;
+  font-weight: 500px;
+  font-stretch: normal;
 }
 
 @media(max-width: 767px) {

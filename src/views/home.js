@@ -27,7 +27,7 @@ const Home = (props) => {
       <Navbar
         PrimaryBtn="Email Me"
         image_src1="/playground_assets/logo1-200h.png"
-        PrimaryBtn1="Email Me"
+        PrimaryBtn1="Let's Connect"
       ></Navbar>
       <main className="home-main">
         <div className="section-container">
@@ -91,7 +91,7 @@ const Home = (props) => {
               <FeatureCard
                 text="Helping companies to automate their business processes is my experience. I have experience with various software applications and tools. I am also experienced in project management."
                 text1="Learn more &gt;"
-                heading="Read your emails"
+                heading="Automation Maker"
                 image_src="/playground_assets/cloud-network-unscreen-200h.gif"
               ></FeatureCard>
               <FeatureCard
@@ -203,24 +203,10 @@ const Home = (props) => {
                 <span className="home-text28">For world.</span>
               </h1>
               <span className="home-text29">
-                <span>
-                  As a learning and development trainer, I am responsible for
-                  delivering training courses and workshops to employees in
-                  order to help them improve their skills and knowledge.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <br></br>
-                <br></br>
-                <span>
-                  My job is to create an engaging and effective learning
-                  experience for my participants, I am passionate about helping
-                  others learn and grow, and I firmly believe that everyone has
-                  the potential to reach their goals with the right support.
-                </span>
+                My job is to create an engaging and effective learning
+                experience for my participants, I am passionate about helping
+                others learn and grow, and I firmly believe that everyone has
+                the potential to reach their goals with the right support.
               </span>
             </div>
             <div className="home-image-container4">
@@ -234,11 +220,11 @@ const Home = (props) => {
         </div>
         <div className="home-section-five section-container">
           <div className="home-max-width6 max-content-container">
-            <h2 className="home-text34">
-              <span className="home-text35">
+            <h2 className="home-text30">
+              <span className="home-text31">
                 Everyone has unique experiences that shape who they are. 
               </span>
-              <span className="home-text36">So do you.</span>
+              <span className="home-text32">So do you.</span>
             </h2>
           </div>
           <div data-type="slider" className="home-slider">
@@ -263,9 +249,9 @@ const Home = (props) => {
         <div className="section-container">
           <div id="connect" className="home-max-width7 max-content-container">
             <div className="home-heading-container">
-              <h2 className="home-text37 heading2">
+              <h2 className="home-text33 heading2">
                 <span>Let&apos;s have some good conversation </span>
-                <span className="home-text39">Lets Talk.</span>
+                <span className="home-text35">Lets Talk.</span>
               </h2>
               <span>
                 <span>We are all connected, let us become connection.</span>
