@@ -121,5 +121,43 @@
         runAllScripts();
       };
     </script>
+
+    <script>
+
+      window.onload = () => {
+
+          //Attaching an event listener that reacts at clicks in your page
+
+                document.addEventListener("click", (e) => {
+
+                  e.stopPropagation();
+
+          //Helper function that tells us if the click happened on the element we want.
+                  const isClickedElementByDataSetProp = (prop, value) => {
+                    return e
+                      .composedPath()
+                      .map((element) => {
+                        return element.dataset ? element.dataset : null;
+                      })
+                      .find((target) => {
+                        return target && target[prop] === value;
+                      });
+                  };
+
+          //Targeting our MobileMenu and storing it inside a variable
+                  const mobileMenu = document.querySelector('[data-type="MobileMenu"]');
+
+          //Check if the click was on the BurgerMenu
+                  if (isClickedElementByDataSetProp ("type", "BurgerMenu")) {
+                    mobileMenu.style.transform = "translateX(0%)";
+                  }
+
+          //Check if the click was on the CloseMobileMenu item
+                  if (isClickedElementByDataSetProp("type", "CloseMobileMenu")) {
+                    mobileMenu.style.transform = "translateX(100%)";
+                  }
+              });
+      }
+    </script>
   </body>
 </html>
