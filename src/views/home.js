@@ -27,7 +27,7 @@ const Home = (props) => {
       <Navbar
         PrimaryBtn="Email Me"
         image_src1="/playground_assets/logo1-200h.png"
-        PrimaryBtn1="Let's Connect"
+        PrimaryBtn1="Email Me"
       ></Navbar>
       <main className="home-main">
         <div className="section-container">
